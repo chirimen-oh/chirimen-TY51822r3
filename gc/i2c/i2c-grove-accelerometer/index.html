@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+  <title>Grove Digital Accelerometer sensor</title>
+  <script src="../../polyfill/blePolyfill.js"></script>
+  <script src="../../drivers/i2c-grove-accelerometer.js"></script>
+  <script src="./main.js"></script>
+  <style>
+    p {
+      color: blue;
+      text-align: center;
+      font-size: 24px;
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .outer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .inner {
+      font-size: 24px;
+      text-align: center;
+      width: 200px;
+    }
+  </style>
+</head>
+
+<body>
+  <div><input type="button" id="BLECONN" style="width:100%;background-color:#03A9F4;color:#fff;font-weight: bold;" value="BLE接続"></div>
+  <div><input type="button" id="BLEDISS" style="width:100%;background-color:#FF5722;color:#fff;font-weight: bold;" value="BLE切断" hidden></div>
+  <P><a href="http://wiki.seeed.cc/Grove-3-Axis_Digital_Accelerometer-16g/" target="_blank">Grove - 3 Axis Digital Accelerometer
+      (±16g) ADXL345 Version</a></P>
+  <img src="./schematic.png" height="400px">
+  <div class="outer">
+    <div id="ax" class="inner">ax</div>
+    <div id="ay" class="inner">ay</div>
+    <div id="az" class="inner">az</div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+  <title>i2c-S11059</title>
+  <script src="../../polyfill/blePolyfill.js"></script>
+  <script src="../../drivers/i2c-S11059.js"></script>
+  <script src="./main.js"></script>
+  <style>
+    #color {
+      display: inline-block;
+      background-color: gray;
+      width: 50px;
+      height: 50px;
+    }
+
+    p {
+      color: blue;
+      text-align: center;
+      font-size: 24px;
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div><input type="button" id="BLECONN" style="width:100%;background-color:#03A9F4;color:#fff;font-weight: bold;" value="BLE接続"></div>
+  <div><input type="button" id="BLEDISS" style="width:100%;background-color:#FF5722;color:#fff;font-weight: bold;" value="BLE切断" hidden></div>
+  <P><a href="http://akizukidenshi.com/catalog/g/gK-08316/" target="_blank">S11059-02DT</a></P>
+  <a href="./schematic.png" target="_blank"><img src="./schematic.png" height="350px"></a>
+  <div id="sensor"></div>
+  <div id="color"></div>
+</body>
+
+</html>
