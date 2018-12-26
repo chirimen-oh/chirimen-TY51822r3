@@ -2,7 +2,7 @@
 
 ## links:
 
-- [examples](./gc/)
+- [examples](https://chirimen.org/chirimen-TY51822r3/gc/)
 - [tutorials]() T.B.D.
 
 ## setup for `pure` Raspberry Pi 3
