@@ -6,7 +6,7 @@
 
 - USB端子のついたPC x 1
 - [スイッチサイエンス TY51822r3](https://www.switch-science.com/catalog/2574/) x 1
-- USB通信ケーブル (microB端子 <-> 標準A端子) x 1
+- USB通信ケーブル (microB端子 <-> PC側のUSB端子形状に合わせた端子) x 1
 
 ### 1. ファームウェアのダウンロード
 
