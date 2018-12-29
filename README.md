@@ -2,6 +2,7 @@
 
 ## links:
 
-- [`LIVE` examples](https://chirimen.org/chirimen-TY51822r3/gc/)
+- [Firmware setup](./setup.md)
+- [`LIVE` examples](https://chirimen.org/chirimen-TY51822r3/bc/)
 - [tutorials]() T.B.D.
-- [setup for `pure` raspberry pi 3](./setup.md)
+
