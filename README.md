@@ -4,7 +4,7 @@
 
 ## links:
 
-- [Firmware setup (日本語)](./setup-ja.md)
+- Firmware setup [(日本語)](./setup-ja.md)
 - [`LIVE` examples](https://chirimen.org/chirimen-TY51822r3/bc/)
-- [tutorials (日本語)](https://chirimen.org/tutorials-TY51822r3/) T.B.D. (writing now..)
+- tutorials [(日本語)](https://chirimen.org/tutorials-TY51822r3/) T.B.D. (writing now..)
 
