@@ -1,8 +1,10 @@
 ## TY51822r3へのファームウェアの書き込み方
 
+この手順は、[TY51822r3ボード](https://www.switch-science.com/catalog/2574/)を購入後、1回だけ行えばOKです。
+
 ### 用意するもの
 
-- USB端子のついたPC（Windows/Mac/Linux）x 1
+- USB端子のついたPC x 1
 - [スイッチサイエンス TY51822r3](https://www.switch-science.com/catalog/2574/) x 1
 - USB通信ケーブル (microB端子 <-> 標準A端子) x 1
 
